@@ -47,7 +47,7 @@ class Network:
         )
         states = torch.tensor(states, dtype=torch.float32)
         nextStates = torch.tensor(nextStates, dtype=torch.float32)
-        actions = torch.tensor(actions, dtype=torch.int64)
+        actions = torch.tensor(actions, dtype=torch.float32)
         rewards = torch.tensor(rewards, dtype=torch.float32)
         dones = torch.tensor(dones, dtype=torch.int64)
 
